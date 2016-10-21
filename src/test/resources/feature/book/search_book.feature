@@ -9,7 +9,7 @@ And today is 2s015-11-18
 
 @YANA @SC_568904566
 Scenario: ssss
-Given a $100 microwave wass sold on 2015-11-03
+And today is 2015-11-18 d
 And today is 2015-11-18 d
 
 @YANA @SC_584579559
