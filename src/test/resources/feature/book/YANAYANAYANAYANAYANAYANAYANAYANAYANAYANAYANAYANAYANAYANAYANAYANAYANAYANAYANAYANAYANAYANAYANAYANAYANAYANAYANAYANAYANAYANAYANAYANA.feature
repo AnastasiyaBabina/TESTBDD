@@ -10,7 +10,7 @@ And several conditions in it
 @YANA @SC_565133711 @scenario_001
 Scenario: scenario without background
 some description
-When there is a background in the feature
+
 Then scenario may not contain Given precondition
 And nobody cares a
 
