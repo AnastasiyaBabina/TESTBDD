@@ -1,4 +1,4 @@
-@YanaTag1 @ST_610719081
+@ST_673 @YanaTag1
 Feature: Salary Management
 
 Background: 
@@ -17,7 +17,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag5 @SC_614739382
+@SC_2575 @YanaTag5
 Scenario Outline: Modify an employee's salary Modify an employee's salaryModify an employee's salaryModify an employee's salaryModify an employee's salaryModify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -39,7 +39,7 @@ Examples:
 |8|fethry|66500.0|
 
 
-@ff @YanaTag2 @SC_628665121
+@SC_2576 @ff @YanaTag2
 Scenario: YANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANA fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -55,7 +55,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag3 @SC_608636755
+@SC_2577 @YanaTag3
 Scenario: 
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -71,7 +71,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag4 @SC_630817863
+@SC_2578 @YanaTag4
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -87,15 +87,14 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag6 @SC_561062853
+@SC_2579 @YanaTag6
 Scenario: puk
 When kek
 And YANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANA
 And lal
 
-@YanaTag7 @SC_594566270
+@SC_2580 @YanaTag7
 Scenario: PUK NAME
 DESCRIPTION PUK
 Given kak
 And puk
-

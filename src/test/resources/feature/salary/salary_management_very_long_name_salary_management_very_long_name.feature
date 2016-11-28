@@ -1,4 +1,4 @@
-@YanaTag1 @ST_610719081
+@ST_674 @YanaTag1
 Feature: Salary Management Salary Management Salary Management Salary Management Salary Management Salary Management
 
 Background: 
@@ -17,7 +17,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag2 @SC_628665121
+@SC_2582 @YanaTag2
 Scenario: YANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANA
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -33,7 +33,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag3 @SC_608636755
+@SC_2583 @YanaTag3
 Scenario: 
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -49,7 +49,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag4 @SC_630817863
+@SC_2584 @YanaTag4
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -65,7 +65,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@YanaTag5 @SC_614739382
+@SC_2585 @YanaTag5
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -87,15 +87,14 @@ Examples:
 |8|fethry|66500.0|
 
 
-@YanaTag6 @SC_561062853
+@SC_2586 @YanaTag6
 Scenario: puk
 When kek
 And YANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANA
 And lal
 
-@YanaTag7 @SC_594566270
+@SC_2587 @YanaTag7
 Scenario: PUK NAME
 DESCRIPTION PUK
 Given kak
 And puk
-
