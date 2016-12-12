@@ -1,2 +1,2 @@
-@ST_668
+@ST_3
 Feature: test

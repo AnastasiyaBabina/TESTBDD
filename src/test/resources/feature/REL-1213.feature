@@ -1,4 +1,4 @@
-@ST_667
+@ST_2
 Feature: Book search OLD name
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
@@ -8,7 +8,7 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_2531 @Critical @Test_1 @fgfg
+@SC_2 @Critical @Test_1 @fgfg
 Scenario: Search books by publication year
 ffg
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
@@ -21,7 +21,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2532 @Critical @Test_1
+@SC_3 @Critical @Test_1
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -35,7 +35,7 @@ Given the salary management system is initialized with the following data
 |8|fethry|66500.0|
 
 
-@SC_2533 @High @Test_1
+@SC_4 @High @Test_1
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -53,7 +53,7 @@ Examples:
 |9|fethry|66500.0|
 
 
-@SC_2534
+@SC_5
 Scenario: Search books by publication year
 ffg
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
@@ -66,7 +66,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2535
+@SC_6
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -80,7 +80,7 @@ Given the salary management system is initialized with the following data
 |8|fethry|66500.0|
 
 
-@SC_2536
+@SC_7
 Scenario Outline: Modify an employee's salary MODIFIED
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5% MODIFIED
@@ -98,7 +98,7 @@ Examples:
 |9|fethry|66500.0|
 
 
-@SC_2537
+@SC_8
 Scenario: new scenario
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -111,7 +111,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2538
+@SC_9
 Scenario: 9
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -124,7 +124,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2539
+@SC_10
 Scenario: 10
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -137,7 +137,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2540
+@SC_11
 Scenario: 11
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -150,7 +150,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2541
+@SC_12
 Scenario: 12
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -163,7 +163,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2542
+@SC_13
 Scenario: 13
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -176,7 +176,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2543
+@SC_14
 Scenario: 14
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -189,7 +189,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2544
+@SC_15
 Scenario: 8
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -202,7 +202,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2545
+@SC_16
 Scenario: 9
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -215,7 +215,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2546
+@SC_17
 Scenario: 10
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -228,7 +228,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2547
+@SC_18
 Scenario: 11
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -241,7 +241,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2548
+@SC_19
 Scenario: 12
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -254,7 +254,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2549
+@SC_20
 Scenario: 13
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -267,7 +267,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2550
+@SC_21
 Scenario: 14
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -280,7 +280,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2551
+@SC_22
 Scenario: 8
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -293,7 +293,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2552
+@SC_23
 Scenario: 9
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -306,7 +306,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2553
+@SC_24
 Scenario: 10
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -319,7 +319,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2554
+@SC_25
 Scenario: 11
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -332,7 +332,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2555
+@SC_26
 Scenario: 12
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -345,7 +345,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2556
+@SC_27
 Scenario: 13
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -358,7 +358,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2557
+@SC_28
 Scenario: 14
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
@@ -371,7 +371,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title '1 good book'
 Then i want do smth with "smth"
 
-@SC_2558
+@SC_29
 Scenario: 8
 #Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 #And another book with the title 'How to cook a dino', written by 'Fred Flintstone', published in 01 January 2012
