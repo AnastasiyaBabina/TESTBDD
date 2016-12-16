@@ -11,7 +11,7 @@ And several conditions in it
 Scenario: scenario without background
 some description
 Then scenario may not contain Given precondition
-And nobody cares a ghfhdfghjhg fghfhdffghf fgdfgdfgsdfg
+And nobody cares a ghfhdfghjhg fghfhdffghf fgdfgdfgsdfg ghjfhj
 
 @SC_43 @YANA @scenario_002
 Scenario Outline: example table scenario
