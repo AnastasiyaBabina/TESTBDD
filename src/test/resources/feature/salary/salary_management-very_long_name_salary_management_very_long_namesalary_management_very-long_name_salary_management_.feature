@@ -38,6 +38,7 @@ Examples:
 |7|mickey|51000.0|
 |8|fethry|66500.0|
 
+
 @SC_47 @ff @YanaTag2
 Scenario: YANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANAYANA fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 Given the salary management system is initialized with the following data
