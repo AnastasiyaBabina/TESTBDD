@@ -1,2 +1,2 @@
-@ST_3 @tag1 @tag
+@ST_3 @tag1 @tag @Y
 Feature: test
