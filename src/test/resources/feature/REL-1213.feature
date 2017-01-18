@@ -1,4 +1,4 @@
-@ST_2
+@ST_2 @y
 Feature: Book search OLD name
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
