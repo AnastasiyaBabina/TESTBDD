@@ -1,4 +1,4 @@
-@ST_7 @YANA @ya
+@ST_7 @YANA @ya @y
 Feature: just a feature
 Check Background without given keywordjh
 
