@@ -1,4 +1,4 @@
-@ST_9 @YANA
+@ST_9 @YANA @ya
 Feature: Salary Management Salary Management Salary Management Salary Management Salary Management Salary Management
 
 Background: 
